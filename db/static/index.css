@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin:0;
+
+    background-color: blanchedalmond;
+}
+
+.challenge {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:15%;
+	background-color:white;
+	width:30%;
+	padding-top:2px;
+	padding-bottom:5px;
+	border: 1px solid black;
+}
+
+.container {
+	margin: auto auto;
+	width:1200px;
+}
+
+.challenge h2 {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.challenge p {
+    width:90%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+.challenge button {
+    background-color: transparent;
+    color: gray;
+    border: 3px solid lightgray;
+    padding: 0.75% 0.75% 1% 1%;
+    width:200px;
+    transition: 0.5s;
+	margin-bottom:15px;
+	z-index: 1;
+	position: relative;
+}
+
+.challenge a {
+    color: gray;
+    font-size: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.challenge a:hover {
+    color:white;
+}
+
+.challenge button:hover {
+    background-color: lightgray;
+	color:white;
+}

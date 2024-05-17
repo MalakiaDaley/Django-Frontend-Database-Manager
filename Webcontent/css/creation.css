@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: blanchedalmond;
+}
+
+.content > div {
+    background-color: white;
+    border: 1px solid black;
+    width:600px;
+    height:350;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: fit-content;
+}
+
+.content div h1, p {
+    font-family: "Radio Canada Big", sans-serif;
+    text-align: center;
+}
+
+.content div p {
+    width: 500px;
+    margin-left: auto;  
+    margin-right:auto;
+}

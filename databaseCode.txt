@@ -1,0 +1,8 @@
+THIS IS CODE FOR MAKING THE SQL DATABASE WHICH IS USED IN FOLLOWING CODE
+
+--CREATE TABLE BasicAuthentication(
+--	id int identity(1,1) PRIMARY KEY,
+--	username varchar(50) NOT NULL UNIQUE,
+--	password varchar(50) NOT NULL,
+--	data varchar(50) NOT NULL
+--);

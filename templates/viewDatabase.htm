@@ -1,0 +1,50 @@
+
+<html>
+    <style>
+        /* THIS IS USED TO FORMAT THE CSS IN */
+        {0}
+    </style>
+
+    <head>
+        <title>Main Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navigationHolder">
+
+            <div class="navigationBar">
+                <a href="http://127.0.0.1:8000" style="text-decoration: none;"><h3>Django Challenge</h3></a>
+
+                <div class="navigationSeperator"></div>
+
+                <div class="navigationButtons">
+                    <a href="http://127.0.0.1:8000/databaseview"><button>View Database</button></a>
+					<a href="http://127.0.0.1:8000/editdatabase"><button>Edit Database</button></a>
+					<a href="http://127.0.0.1:8000/importdata"><button>Import Data</button></a>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+        
+        <table class="tableData">
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Data</th>
+            </tr>
+            <!-- THIS IS FOR IMPORTING TABLE DATA -->
+            {1}
+        </table>
+
+        <div class="footer">
+            <h3 style="margin-top:20px; margin-left: 40%; border-right:1px solid white; padding-right:20px;">Hosted on Django </h3>
+
+            <h3 style="margin-left:20px;">Made by Malakia Daley</h3>
+            
+        </div>
+    </body>
+</html>

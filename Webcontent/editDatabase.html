@@ -1,0 +1,67 @@
+
+<html>
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" href="css/editDatabase.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navigationHolder">
+
+            <div class="navigationBar">
+                <h3>Django Challenge</h3>
+
+                <div class="navigationSeperator"></div>
+
+                <div class="navigationButtons">
+                    <button>View Database</button>
+                    <button>Edit Database</button>
+                    <button>Import Data</button>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+        
+        <div class="edit">
+            <h1>Edit Database</h1>
+            <hr>
+
+            <form action="">
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" name="username" id="username">
+
+                <br>
+                <br>
+
+                <label for="password" style="margin-top:40px;">Password:</label>
+                <br>
+                <input type="text" name="password" id="password">
+
+                <br>
+                <br>
+
+                <label for="data" style="margin-top:40px;">Data:</label>
+                <br>
+                <input type="text" name="data" id="data">
+
+                <br>
+                <br>
+
+                <button id="createUser" type="button">Create User</button>
+            </form>
+        </div>
+        
+        <div class="footer">
+            <h3 style="margin-top:20px; margin-left: 40%; border-right:1px solid white; padding-right:20px;">Hosted on Django </h3>
+
+            <h3 style="margin-left:20px;">Made by Malakia Daley</h3>
+            
+        </div>
+    </body>
+</html>

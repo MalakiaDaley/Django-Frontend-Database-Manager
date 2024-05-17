@@ -1,0 +1,104 @@
+{% load static %}
+<html>
+    <link rel="stylesheet" href="{% static 'creation.css' %}">
+    <link rel="stylesheet" href="{% static 'navigation.css' %}">
+    <head>
+        <title>Main Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navigationHolder">
+
+            <div class="navigationBar">
+                <a href="http://127.0.0.1:8000" style="text-decoration: none;"><h3>Django Challenge</h3></a>
+
+                <div class="navigationSeperator"></div>
+
+                <div class="navigationButtons">
+                    <a href="http://127.0.0.1:8000/databaseview"><button>View Database</button></a>
+					<a href="http://127.0.0.1:8000/editdatabase"><button>Edit Database</button></a>
+					<a href="http://127.0.0.1:8000/importdata"><button>Import Data</button></a>
+                </div>
+            </div>
+
+            <hr>
+        </div>
+        
+        <div class="content">
+            <div class="19:00/15/05/2024" style="margin-top: 20px;">
+                <!--  margin-bottom: 100px;-->
+                <h1>Starting</h1>
+                <p>When I first started this challenge I started it on college computer making basic django site with no design, nothing.
+                    I chose to start working on a website design for the challenge for fun and to make challenge more difficult. First of I began on
+                    the index page which contains main redirects to creation page and was where I first started to design the navigation bar.
+                    The navigation bar as of right now has no functionality but can redirect user back to main web page once this section is done I intend on creating
+                    view database page.
+                </p>
+                
+                <p><b>Created at 19:17 BST 15/05/2024</b></p>
+            </div>
+
+            <div class="21:12/15/05/2024" style="margin-top: 20px;">
+                <h1>Creating The Edit Database Page</h1>
+                <p>Created the edit database web page has full error handling for data what has been already inserted also informed of some issues I had with my navigation bar
+                    my navigation bar was stretched to bottom of the screen I couldn't exactly make change to this problem but did make work around to this issue so everything works
+                    accordingly using z-index this also brought me to issue of positions being static I fixed this and changed them to relative. I also made all my input boxes have
+                    nice hover effect this idea was inspired by wix's design of input textboxs.
+                </p>
+                
+                <p><b>Created at 21:12 BST 15/05/2024</b></p>
+            </div>
+
+            <div class="22:24/15/05/2024" style="margin-top: 20px;">
+                <h1>Creating The View Database Page</h1>
+                <p>Created the view database page this was more painful as the render method uses a file and if I customized the file to change data inside it would
+                    break everything as their would be no format value it would be replaced it would also contain old data I didn't want this issue so I had to make two
+                    new files to contain styling to open up from it's current directory and the html code to open up then format them I use formatting through method of {0}
+                    or {1} using python we can format these to have new values in. The table configuring was also a pain due to how I wanted to style it but in end I got it completed.
+                </p>
+                
+                <p><b>Created at 22:24 BST 15/05/2024</b></p>
+            </div>
+
+            <div class="22:30/15/05/2024" style="margin-top: 20px; height:250">
+                <h1>Problem Solving The Creation Page</h1>
+                <p>When adding numerous elements I discovered this issue at the start of this page I noticed if scroll bar was there the footer would be able to be scrolled past
+                    this was an easy fix I solved this by changing the position to fixed this solved my problem made it so I didn't have to seperate data onto numerous pages for the user.
+                </p>
+                
+                <p><b>Created at 22:30 BST 15/05/2024</b></p>
+            </div>
+
+            <div class="22:36/15/05/2024" style="margin-top: 20px">
+                <h1>Making The Database</h1>
+                <p>As the database provided was localhosted by the college meaning could not be accessed on devices outside of college I had to find way to work on it outside of college
+                    as I had ideas for creating website about this challenge which is what you see now to solve this problem I downloaded, SQL Server 2019 hosted my own made custom table
+                    under the name of BasicAuthentication like I did on college I replicated my table design. After setting this all up I then connected it up to python using the driver
+                    {ODBC Driver 17 for SQL Server} Then I started working on website.
+                </p>
+                
+                <p><b>Created at 22:36 BST 15/05/2024</b></p>
+            </div>
+
+            <div class="22:43/15/05/2024" style="margin-top: 20px; margin-bottom: 100px; height:150">
+                <h1>Now I Hibernate.</h1>
+                <p>💤💤💤💤💤💤
+                </p>
+                
+                <p><b>Created at 22:43 BST 15/05/2024</b></p>
+            </div>
+        </div>
+        
+
+
+        <div class="footer">
+            <h3 style="margin-top:20px; margin-left: 40%; border-right:1px solid white; padding-right:20px;">Hosted on Django </h3>
+
+            <h3 style="margin-left:20px;">Made by Malakia Daley</h3>
+            
+        </div>
+    </body>
+</html>
